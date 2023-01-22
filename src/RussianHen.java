@@ -9,12 +9,12 @@ public class RussianHen extends Hen{
 
     @Override
     public String getDescription() {
-      return super.getDescription();
+      return "I am chicken";
     }
 
     @Override
     public int getCountOfEggsPerMonth() {
-        return super.getCountOfEggsPerMonth();
+        return 100;
 
     }
 

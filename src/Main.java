@@ -13,9 +13,9 @@ public class Main {
 //            System.out.println(hen1);
         Hen [] hen = {new RussianHen(100,"Russia"), new UkraineHen(150,"Ucraine")};
         for(Hen a:hen){
-            if (a instanceof RussianHen){
+            if (a.getClass().getName().equals("Russia")){
                 ((RussianHen)a).toString();
-            }else if (a instanceof UkraineHen){
+            }else if (a.getClass().getName().equals("Ucraine")){
                 ((UkraineHen)a).toString();
             }
         }

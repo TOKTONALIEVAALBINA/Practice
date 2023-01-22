@@ -6,7 +6,7 @@ public class Hen {
     private String country;
 
     public  int getCountOfEggsPerMonth(){
-    return getCountOfEggsPerMonth();
+    return count;
     }
     public  String getDescription(){
       return "I am chicken";
@@ -35,5 +35,13 @@ public class Hen {
 
     public void setCountry(String country) {
         this.country = country;
+    }
+
+    @Override
+    public String toString() {
+        return "Hen{" +
+                "count=" + count +
+                ", country='" + country + '\'' +
+                '}';
     }
 }
