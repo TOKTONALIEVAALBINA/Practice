@@ -1,12 +1,15 @@
+import javax.print.DocFlavor;
+import java.lang.invoke.StringConcatException;
+
 public class Hen {
     private int count;
     private String country;
 
     public  int getCountOfEggsPerMonth(){
-    return count;
+    return getCountOfEggsPerMonth();
     }
     public  String getDescription(){
-        return country;
+      return "I am chicken";
 
     }
     Hen(){
@@ -19,7 +22,7 @@ public class Hen {
     }
 
     public int getCount() {
-        return count;
+     return getCountOfEggsPerMonth();
     }
 
     public void setCount(int count) {
@@ -27,7 +30,7 @@ public class Hen {
     }
 
     public String getCountry() {
-        return country;
+        return getDescription();
     }
 
     public void setCountry(String country) {

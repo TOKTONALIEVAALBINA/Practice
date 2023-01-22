@@ -18,6 +18,6 @@ public class UkraineHen extends Hen{
 
     @Override
     public String toString() {
-        return "UkraineHen{}";
+        return getDescription()+ getCountOfEggsPerMonth() + "eggs that i give and i from" + getCountry();
     }
 }

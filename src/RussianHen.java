@@ -9,7 +9,7 @@ public class RussianHen extends Hen{
 
     @Override
     public String getDescription() {
-        return super.getDescription();
+      return super.getDescription();
     }
 
     @Override
@@ -20,6 +20,6 @@ public class RussianHen extends Hen{
 
     @Override
     public String toString() {
-        return "RussianHen{}";
+        return getDescription()+ getCountOfEggsPerMonth() + "eggs that i give and i from" + getCountry();
     }
 }
